@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function () {
             // 'data.errors' is an object with the structure like { field_name: error_list (it is a string) }
 
 
-            // const errors = data.errors;
+            const errors = data.errors;
             // const fieldN = data.errors.field_name;
             // console.log(fieldN)
 
@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
     // Event listeners for each input field
-    //id of input tage
+    //id of input ta
     document.getElementById('id_username').addEventListener('blur', function () {
 
         //clear the div element again focusing on input element
@@ -102,15 +102,11 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
 
-
-
     document.getElementById('id_email').addEventListener('blur', function () {
         clear_div('#email')
         checkExists('email', document.getElementById('id_email').value);
     });
 
-
-    
     document.getElementById('id_phone').addEventListener('blur', function () {
         clear_div('#phone')
         checkExists('phone', document.getElementById('id_phone').value);

@@ -8,6 +8,4 @@ body.style.height = "100vh";
 console.log('styling js')
 
 
-element = document.getElementById('s_div')
-element.style.backgroundImage='linear-gradient(-20deg, #00cdac 0%, #8ddad5 100%)';
-element.style.color ="white";
+
