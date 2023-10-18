@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Event listeners for each input field
     //id of input ta
-    document.getElementById('id_username').addEventListener('blur', function () {
+    document.getElementById('id_username').addEventListener('keyup', function () {
 
         //clear the div element again focusing on input element
         

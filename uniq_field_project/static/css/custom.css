@@ -5,3 +5,17 @@ input[type=number]::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
+ #signup_form{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); 
+    border-radius :20px;
+}
+
+/* Define the border color for the input */
+input {
+    border: 1px solid #ccc; /* Initial border color (you can set your desired color) */
+}
+
+/* When input is focused, change the border color to green */
+input:focus {
+    border: 1px solid green; /* Change the border color to green when focused */
+}
